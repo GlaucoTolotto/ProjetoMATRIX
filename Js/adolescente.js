@@ -1,10 +1,12 @@
 function adolescente(){
-    alert ('Persogem escolhido foi o Adolescente baixando filme pirata')
+    alert ('Persogem escolhido foi o Adolescente baixando filme pirata');
     document.write(`
     <!DOCTYPE html>
     <html lang="pt-BR">
     <head>
-        <link rel="stylesheet" href="estruturaDaApresentaçãoDoPersogem.css">
+    <link rel="stylesheet" href="css/apresentaçãoAdolescente.css">
+    <script src="./Js/fase1.js"></script>
+    <script src="./Js/gameOver.js"></script>
     </head>
     <body>
         <div class="caixaDeConteudo">
@@ -16,18 +18,36 @@ function adolescente(){
             <img src="./imagens/Adolescente.jpg">
         <div>
     </body>
-    </html>`)
+    </html>`);
 
     setTimeout (function(){
     var continuaçãoAdole = prompt('Continução'); 
         if (continuaçãoAdole == 1){
-            return fase1()
+            return fase2()
         }
-        else if (continuaçãoAdole == 2){
-            return alert ('GAME OVER! APERTE F5 PARA COMEÇAR DE NOVO')
+        else {
+            return gameOver();
         }
-},5000)
-
+},5000);
+function fase2(){
+    var pergunta2 = prompt("sla");
+    if (pergunta2 == 2){
+        return fase3();
+    }
+    else {
+        alert ('GAME OVER');
+    }
 }
 
+function fase3(){
+    var pergunta3 = prompt("pergunta 3")
+    if (pergunta3 == 2){
+        return faseFinal();
+    }
+    else {
+        alert ("GAME OVER!");
+    }
+}
+
+}
 

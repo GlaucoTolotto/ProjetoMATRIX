@@ -5,19 +5,29 @@ function hacker(){
     <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="estruturaDaApresentaçãoDoPersogem.css">
+        <link rel="stylesheet" href="./css/apresentaçãoHacker.css">
+        <script src="./Js/gameOver.js"></script>
     </head>
     <body>
         <div class="caixaDeConteudo">
             <div class="textoDoPersogem">
                 <h1>Hacker</h1>
-                <p>Seu persogem estavá calmamente baixando filmes para poder ver com sua Web namorada, mais tarde naquele dia, a garota mais linda da internet (segundo fotos, pois ela sempre se recusa a ligar a camera, e sempre tem uma desculpa para não se encontrar com o nosso herói)</p>
-                <p>Mas derrepente se viu dentro de um jogo estranho, que jamais virá em sua vida toda (O que não é muito tempo, pois estamos falando de um adolescente). Agora ele faz parte do jogo como um persogem.</p>
-                <img src="./imagens/Hacker.jpg">
+                <p>Seu personagem estava procurando sua próxima vitima, até que entrou em um computador, em que ao invés de hacker, ele mesmo foi hackeado.</p>
+                <p>Sem saber o que estava acontecendo, pois nunca tinha sido hackeado, pois se achava o mlehor no ramo. Mas acabou preso na Matrix junto com outros.</p>
             </div>    
+            <img src="./imagens/Hacker.jpg">
         <div>
     </body>
     </html>`);
+    setTimeout (function(){
+        var continuaçãoAdole = prompt('Continução'); 
+            if (continuaçãoAdole == 1){
+                return fase6()
+            }
+            else {
+                return gameOver();
+            }
+    },5000)
     
    
 

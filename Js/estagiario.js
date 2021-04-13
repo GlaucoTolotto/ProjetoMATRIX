@@ -4,17 +4,26 @@ function estagiario(){
     <!DOCTYPE html>
     <html lang="pt-BR">
     <head>
-        <link rel="stylesheet" href="estruturaDaApresentaçãoDoPersogem.css">
+        <link rel="stylesheet" href="./css/apresentaçãoEstagiario.css">
     </head>
     <body>
         <div class="caixaDeConteudo">
             <div class="textoDoPersogem">
                 <h1>Estagiário Fã De Teoria Da Conspiração</h1>
-                <p>Seu persogem estavá calmamente baixando filmes para poder ver com sua Web namorada, mais tarde naquele dia, a garota mais linda da internet (segundo fotos, pois ela sempre se recusa a ligar a camera, e sempre tem uma desculpa para não se encontrar com o nosso herói)</p>
-                <p>Mas derrepente se viu dentro de um jogo estranho, que jamais virá em sua vida toda (O que não é muito tempo, pois estamos falando de um adolescente). Agora ele faz parte do jogo como um persogem.</p>
-                <img src="./imagens/Estagiario.jpg">
+                <p>Este personagem estava fazendo as suas e pesquisas e conspirações. Quando do nada um amigo, manda um link para ele, sobre um assunto que ele mais gosta.</p>
+                <p>Quando clicou se viu preso na Matrix, sendo obrigado a jogar um jogo feito pelo governo, só pra manter eles presos, em loop.</p>
             </div>    
+            <img src="./imagens/Estagiario.jpg">
         <div>
     </body>
     </html>`)
+    setTimeout (function(){
+        var continuaçãoAdole = prompt('Continução'); 
+            if (continuaçãoAdole == 1){
+                return fase4()
+            }
+            else if (continuaçãoAdole == 2){
+                return gameOver();
+            }
+    },5000)
 }

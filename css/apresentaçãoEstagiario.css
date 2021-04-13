@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.caixaDeConteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c9e265;
+    margin-top: 200px;
+}
+
+.textoDoPersogem {
+    border: #c9e265 solid 2px;
+    padding: 20px 20px;
+    width: 475px;
+}
+
+img {
+    width: 13%;
+}
