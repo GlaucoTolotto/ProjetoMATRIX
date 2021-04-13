@@ -20,14 +20,15 @@ function hacker(){
     </body>
     </html>`);
     setTimeout (function(){
-        var continuaçãoAdole = prompt('Continução'); 
+        var continuaçãoAdole = prompt('Agora que você ja conhece o seu personagem, vamos começar as fases, as fases serão apenas 3 perguntas, perguntas que te desafiarão, está preparado? \n 1- Sim \n 2- Não'); 
             if (continuaçãoAdole == 1){
-                return fase6()
+                return location.assign ("todasAsFases.html");
             }
             else {
-                return ;
+            location.assign ("gameOver.html");
             }
-    },5000)
+    },5000);
+    
     
    
 

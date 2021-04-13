@@ -9,17 +9,28 @@ main {
 }
 
 button {
-    margin-top: 350px;
+    margin-top: 320px;
     padding: 50px;
     text-transform: uppercase;
-    border: #c9e265 solid 3px;
+    border: #c9e265 solid 2px;
     background-color: black;
     color: #c9e265;
+}
+
+button:hover {
+    border: white solid 2px;
+    
+    transition: 0.5s;
 }
 
 a {
     text-decoration: none;
     color: #c9e265;
+}
+
+a:hover {
+    color: white;
+    transition: 0.5s;
 }
 
 h1 {

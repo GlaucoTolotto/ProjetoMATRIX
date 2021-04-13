@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="tex/css" href="./css/reset.css">
-    <script src="./Js/fases.js"></script>
-    <title>MATRIX</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <title>Matrix</title>
 </head>
 <body>
     <style>
@@ -28,10 +27,12 @@
 
         h1 {
             text-transform: uppercase;
+            margin-bottom: 20px;
+            font-size: xx-large;
         }
 
         button {
-            margin-top: 10px;
+            margin-top: 20px;
             text-transform: uppercase;
             background-color: black;
             color: #c9e265;
@@ -45,14 +46,19 @@
             background-color: #4d4d4d;
             transition: 0.5s;
         }
-        
+
+        a {
+            text-decoration: none;
+            color:#c9e265;
+        }
     </style>
-    <div class="caixaDeConteudo">
-        <h1>sistema de fases</h1>
-        <p>Imagine que você está na Matrix, e o seu nivel de inteligencia sera testado, se você errar saberemos que seu nivel não sera suficiente.</p>
-        <p>O personagem que você escolheu não influencia na dificuldade do jogo, todas as perguntas são do mesmo nivel de dificuldade.</p>
-        <p>As fases serão 3 perguntas de logica, cada vez que você acerta uma pergunta, você passará de fase.</p>
-        <button onclick="fase1()">clique aqui para iniciar as fases</button>
-    </div>
+    <main>
+        <div class="caixaDeConteudo">
+            <h1>parabéns pela descisão</h1>
+            <p>Sei que a descisão foi muito dificil, mas junto apartir de agora ficaremos juntos por oque der e vier.</p>
+            <p>Muito obrigado por jogar, mas por hora preciso de você aí, na realidade virtual por enquanto, até segunda ordem.</p>
+            <button><a href="./index.html"> Para se desafiar novamente aperte aqui!</a></button>
+        </div>
+    </main>
 </body>
 </html>
