@@ -11,7 +11,7 @@ function estagiario(){
     <body>
         <div class="caixaDeConteudo">
             <div class="textoDoPersogem">
-                <h1>Estágiario Fã de Teoria Da Conspiração<
+                <h1>Estágiario Fã de Teoria Da Conspiração</h1>
                 <p>Este personagem estava fazendo as suas e pesquisas e conspirações. Quando do nada um amigo, manda um link para ele, sobre um assunto que ele mais gosta.</p>
                 <p>Quando clicou se viu preso na Matrix, sendo obrigado a jogar um jogo feito pelo governo, só pra manter eles presos, em loop.</p>
             </div>    
