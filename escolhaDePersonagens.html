@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="Js/inicioDoJogo.js"></script>
+    <script src="./Js/Hacker.js"></script>
+    <script src="./Js/estagiario.js"></script>
+    <script src="./Js/adolescente.js"></script>
+    <title>MATRIX</title>
+</head>
+<body>
+    <style>
+        body {
+        background-color: black;
+    }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .imagens {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10%;
+        }
+
+        img {
+            width: 10%;
+            margin-left: 5px;
+        }
+
+        button {
+            margin-top: 40px;
+            padding: 40px;
+            text-transform: uppercase;
+            border: #c9e265 solid 3px;
+            background-color: black;
+            color: #c9e265;
+        }
+    </style>
+    <main>
+        <div class="imagens">
+            <img src="./imagens/adolescente-com-nome.jpg">
+            <img src="/imagens/Estagiario-com-nome.jpg">
+            <img src="/imagens/hacker-com-nome.jpg">
+        </div>
+        <button onclick="start()">Clique Aqui Para Poder escolher seu personagem</button>
+    </main>
+</body>
+</html>

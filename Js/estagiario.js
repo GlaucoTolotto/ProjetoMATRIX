@@ -4,6 +4,7 @@ function estagiario(){
     <!DOCTYPE html>
     <html lang="pt-BR">
     <head>
+        <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/apresentaçãoEstagiario.css">
     </head>
     <body>

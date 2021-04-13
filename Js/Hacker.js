@@ -5,8 +5,8 @@ function hacker(){
     <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/apresentaçãoHacker.css">
-        <script src="./Js/gameOver.js"></script>
     </head>
     <body>
         <div class="caixaDeConteudo">
@@ -25,7 +25,7 @@ function hacker(){
                 return fase6()
             }
             else {
-                return gameOver();
+                return ;
             }
     },5000)
     

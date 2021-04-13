@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="tex/css" href="./css/reset.css">
+    <script src="./Js/fases.js"></script>
+    <title>MATRIX</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .caixaDeConteudo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #c9e265;
+            border: #c9e265 solid 2px;
+            width: 500px;
+            margin: 300px auto;
+            padding: 40px;
+        }
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        button {
+            margin-top: 10px;
+            text-transform: uppercase;
+            background-color: black;
+            color: #c9e265;
+            border: #c9e265 solid 2px;
+            padding: 10px;
+        }
+
+        button:hover {
+            color: white;
+            border: white;
+        }
+        
+    </style>
+    <div class="caixaDeConteudo">
+        <h1>sistema de fases</h1>
+        <p>Imagine que você está na Matrix, e o seu nivel de inteligencia sera testado, se você errar saberemos que seu nivel não sera suficiente.</p>
+        <p>O personagem que você escolheu não influencia na dificuldade do jogo, todas as perguntas são do mesmo nivel de dificuldade.</p>
+        <p>As fases serão 3 perguntas de logica, cada vez que você acerta uma pergunta, você passará de fase.</p>
+        <button onclick="fase1()">clique aqui para iniciar as fases</button>
+    </div>
+</body>
+</html>

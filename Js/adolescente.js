@@ -6,7 +6,7 @@ function adolescente(){
     <head>
     <link rel="stylesheet" href="css/apresentaçãoAdolescente.css">
     <script src="./Js/fase1.js"></script>
-    <script src="./Js/gameOver.js"></script>
+    
     </head>
     <body>
         <div class="caixaDeConteudo">
@@ -21,33 +21,15 @@ function adolescente(){
     </html>`);
 
     setTimeout (function(){
-    var continuaçãoAdole = prompt('Continução'); 
+    var continuaçãoAdole = prompt('Agora que você ja conhece o seu personagem, vamos começar as fases, as fases serão apenas 3 perguntas, perguntas que te desafiarão, está preparado? \n 1- Sim \n 2- Não'); 
         if (continuaçãoAdole == 1){
-            return fase2()
+            return location.assign ("todasAsFases.html");
         }
         else {
-            return gameOver();
+        location.assign ("gameOver.html");
         }
 },5000);
-function fase2(){
-    var pergunta2 = prompt("sla");
-    if (pergunta2 == 2){
-        return fase3();
-    }
-    else {
-        alert ('GAME OVER');
-    }
-}
 
-function fase3(){
-    var pergunta3 = prompt("pergunta 3")
-    if (pergunta3 == 2){
-        return faseFinal();
-    }
-    else {
-        alert ("GAME OVER!");
-    }
-}
 
 }
 
