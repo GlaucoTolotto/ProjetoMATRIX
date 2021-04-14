@@ -12,8 +12,8 @@ function adolescente(){
         <div class="caixaDeConteudo">
             <div class="textoDoPersogem">
             <h1>Adolescente baixando filme pirata</h1>
-                <p>Seu persogem estáva calmamente baixando filmes para poder ver com sua Web namorada a garota mais linda da internet (segundo fotos, pois ela sempre se recusa a ligar a camera, e sempre tem uma desculpa para não se encontrar com o nosso herói)</p>
-                <p>Mas derrepente se viu dentro de um jogo estranho, que jamais virá em sua vida toda (O que não é muito tempo, pois estamos falando de um adolescente). Agora ele faz parte do jogo como um persogem.</p>
+                <p>Seu persogem estáva calmamente baixando filmes para poder ver com sua Web namorada a garota mais linda da internet (segundo fotos, pois ela sempre se recusa a ligar a camera, e sempre tem uma desculpa para não se encontrar com o nosso herói).</p>
+                <p>Mas derrepente se viu dentro de um jogo estranho, que jamais virá em toda sua vida (O que não é muito tempo, pois estamos falando de um adolescente). Agora ele faz parte do jogo como um personagem.</p>
             </div>
             <img src="./imagens/Adolescente.jpg">
         <div>

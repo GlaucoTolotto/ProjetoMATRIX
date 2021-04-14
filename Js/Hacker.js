@@ -12,8 +12,8 @@ function hacker(){
         <div class="caixaDeConteudo">
             <div class="textoDoPersogem">
                 <h1>Hacker</h1>
-                <p>Seu personagem estava procurando sua próxima vitima, até que entrou em um computador, em que ao invés de hacker, ele mesmo foi hackeado.</p>
-                <p>Sem saber o que estava acontecendo, pois nunca tinha sido hackeado, pois se achava o mlehor no ramo. Mas acabou preso na Matrix junto com outros.</p>
+                <p>Seu personagem estava procurando sua próxima vitima, até que entrou em um computador, em que ao invés de hackear aquele computador, ele mesmo foi hackeado.</p>
+                <p>Sem saber o que estava acontecendo, pois nunca tinha sido hackeado, pois se achava o melhor no ramo. Mas acabou preso na Matrix junto com outros.</p>
             </div>    
             <img src="./imagens/Hacker.jpg">
         <div>
